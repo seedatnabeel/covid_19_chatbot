@@ -29,4 +29,4 @@ for i in range(len(q_items)):
 
 df = pd.DataFrame(q_a_pairs)
 
-df.to_csv("Covid_19_Questions_Answers_WHO.csv")
+df.to_hdf('ref_faqs.h5', key='df', mode='w')
