@@ -10,15 +10,15 @@
 ## Table of Contents
   * [**Features**](#features)
   * [**Usage**](#usage)
-  * [**WhatsApp Integration**](#whatsapp)
+  * [**WhatsApp Integration**](#whatsapp-integration)
   * [**Data**](#data)
-  * [**Language Model & Embeddings**](#language)
-  * [**Image Classification: Convolutional Neural Network**](#image)
+  * [**Language Model and Embeddings**](#language-model-and-embeddings)
+  * [**Image Classification: Convolutional Neural Network**](#image-classification-convolutional-neural-network)
   * [**FastAPI**](#fastapi)
   * [**Deployment**](#deployment)
-  * [**Load testing: Locust**](#loadtest)
-  * [**API Docs**](#docs)
-  * [**Future Improvements**](#improvements)
+  * [**Load testing**](#load-testing)
+  * [**API Docs**](#api-docs)
+  * [**Future Improvements**](#future-improvements)
 
 
 ## Features
