@@ -3,7 +3,7 @@
 **Covid-19 Chatbot** is...
 
 <p align="center">
-  <img src="images/chatbot.png" alt="Chatbot Architecture" />
+  <img src="images/chatbot.jpg" alt="Chatbot Architecture" />
 </p>
 
 
