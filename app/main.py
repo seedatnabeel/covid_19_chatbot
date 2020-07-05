@@ -6,8 +6,8 @@ import tensorflow_text
 from fastapi import FastAPI
 from starlette.requests import Request
 
-from utils.bot_response import *
-from utils.utils import *
+from .utils.bot_response import *
+from .utils.utils import *
 
 logging.getLogger().setLevel(logging.INFO)
 
@@ -27,11 +27,12 @@ logging.info("Loading Universal Sentence Encoder")
 lang_model = get_lang_model()
 
 logging.info("Loading h5 of FAQ reference")
-pandas_df = pd.read_hdf('ref_faqs.h5', 'df')
+pandas_df = pd.read_hdf('.ref_faqs.h5', 'df')
 
-# Healthcheck endpoint to see if API running fine
+
 @app.get("/health")
-def root():
+def health_check():
+    '''Healthcheck endpoint to see if API running fine'''
     return {"message": "API Online"}
 
 @app.post("/bot")
