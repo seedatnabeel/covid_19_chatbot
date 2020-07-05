@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>My Project - ReDoc</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://fastapi.tiangolo.com/img/favicon.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <style data-styled="" data-styled-version="4.4.1"></style>
+</head>
+<body>
+    <div id="redoc-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/redoc/bundles/redoc.standalone.js"> </script>
+    <script>
+        var spec = {"openapi": "3.0.2", "info": {"title": "FastAPI", "version": "0.1.0"}, "paths": {"/health": {"get": {"summary": "Health Check", "description": "Healthcheck endpoint to see if API running fine", "operationId": "health_check_health_get", "responses": {"200": {"description": "Successful Response", "content": {"application/json": {"schema": {}}}}}}}, "/bot": {"post": {"summary": "Bot", "description": "Receives a `WhatsApp post request`.\nEither a `text message` or an `image/photo` of a mask\n\n- Multi-language support: English, Afrikaans, French, German and a few more\n\n `RETURN`\n - Text message: Returns an appropriate contextutal response from the WHO COVID-19 FAQS\n - Image: classification of a mask as a cloth mask, n95 mask or surgical mask", "operationId": "bot_bot_post", "responses": {"200": {"description": "Successful Response", "content": {"application/json": {"schema": {}}}}}}}}};
+        Redoc.init(spec, {}, document.getElementById("redoc-container"));
+    </script>
+</body>
+</html>
+
