@@ -2,6 +2,12 @@
 
 **Covid-19 Chatbot** is a multi-lingual WhatsApp chatbot to answer FAQs about Covid-19 as per the WHO. It also has computer vision capabilities allowing a WhatsApp client to send a picture of a mask and the chatbot will classify the mask as either a N95, surgical or cloth mask.
 
+Videos of the WhatsApp Chatbot deployed on GCP in action!
+* **Chatbot: English**  [link](https://www.youtube.com/watch?v=6DTtJq-z0wM)
+* **Chatbot: Multi-lingual - Afrikaans, French, Spanish, Turkish**: [link](https://www.youtube.com/watch?v=NSyk7RnHMb4)
+* **Computer Vision - Mask Classifier** [link](https://www.youtube.com/watch?v=r5o4d49BmGg)
+
+
 ## Features
 * **Question-Answering chatbot** of COVID-19 FAQs
 * **Multi-lingual language support**: English, Afrikaans, French and more (16 languages total)
