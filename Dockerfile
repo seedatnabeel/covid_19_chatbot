@@ -1,0 +1,9 @@
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+COPY ./app /app
+COPY requirements.txt .
+RUN pip --no-cache-dir install -r requirements.txt
+
+EXPOSE 80
+
+ENTRYPOINT ["uvicorn"]
+CMD ["main:app", "--host", "0.0.0.0", "--port", "80"]

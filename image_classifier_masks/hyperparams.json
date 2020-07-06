@@ -1,0 +1,22 @@
+{
+  "pre_trained": "MobileNet",
+  "n_classes": 3,
+  "batch_size": 96,
+  "epochs_dense": 4,
+  "lr_dense": 0.001,
+  "decay_dense": 0,
+  "epochs_finetune": 5,
+  "lr_finetune": 0.00003,
+  "decay_finetune": 0.000023,
+  "dropout": 0.5,
+  "multiprocessing": true,
+  "optimizer_dense": "Adam",
+  "optimizer_finetune": "Adam",
+  "loss": "categorical_crossentropy",
+  "horizontal_flip" :  true,
+  "zoom_range" : 0.2,
+  "shear_range" :  0.2,
+  "class_mode" : "categorical",
+  "validation_size": 0.2,
+  "weights": "imagenet"
+}
