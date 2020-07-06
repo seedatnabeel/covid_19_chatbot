@@ -3,7 +3,6 @@
 **Covid-19 Chatbot** is a multi-lingual WhatsApp chatbot to answer FAQs about Covid-19 as per the WHO. It also has computer vision capabilities allowing a WhatsApp client to send a picture of a mask and the chatbot will classify the mask as either a N95, surgical or cloth mask.
 
 ## Features
-**MORE TODO**
 * **Question-Answering chatbot** of COVID-19 FAQs
 * **Multi-lingual language support**: English, Afrikaans, French and more (16 languages total)
 * **Semantic task retrieval** for Question-Answer retrieval.
@@ -92,8 +91,6 @@ python train_lang_embedding.py [wandp_api [WANDB API KEY]] [--use_url [TF-HUB US
 </h2>
 
 
-[**FastAPI**](#fastapi)
-
 ## FastAPI
 * The API endpoint for the chatbot is built with FastAPI.
 * Framework has lower inference latency (especially for ML) than Flask
@@ -114,6 +111,10 @@ uvicorn main:app --reload
 * Load tested the FastAPI endpoint deployed on GCP to quantify performance to traffic (code in repo).
   * Locust is used to simulate 1000 active users, with a spawn rate of 10 users/sec
   * The response time & number of users for the simulation is shown in the figures below.
+  * To run the Locust load test using the UI run the following:
+```bash
+locust -f benchmark.py
+```
 
 <h2 align="center" id="response-time">
 	<img src="images/response_time.png" alt="Locust response time">
