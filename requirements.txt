@@ -1,6 +1,6 @@
 beautifulsoup4==4.9.1
 dill==0.3.2
-fastapi==0.58.1
+fastapi==0.65.2
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
 numpy==1.19.0
