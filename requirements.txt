@@ -10,7 +10,7 @@ python-multipart==0.0.5
 requests==2.24.0
 starlette==0.13.4
 tables==3.6.1
-tensorflow==2.2.0
+tensorflow==2.5.3
 tensorflow-hub==0.8.0
 tensorflow-text==2.2.1
 twilio==6.43.0
