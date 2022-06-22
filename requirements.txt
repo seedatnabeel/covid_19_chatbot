@@ -3,7 +3,7 @@ dill==0.3.2
 fastapi==0.58.1
 Keras==2.4.3
 Keras-Preprocessing==1.1.2
-numpy==1.19.0
+numpy==1.22.0
 pandas==1.0.5
 Pillow==7.2.0
 python-multipart==0.0.5
